@@ -40,8 +40,6 @@ document.querySelector('#chat-form').addEventListener('submit',onFormSubmitted);
 
 addButtonListeners();
 
-#serverTime_update_every_seconds
-
 var serverTime = new Date();
 
 function updateTime() {
