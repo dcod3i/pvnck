@@ -5,9 +5,13 @@
   scroll-behavior: smooth;
 }
 
-.right{
-  position: absolute;
-  bottom: 0px;
+.right {
+	position: absolute;
+	bottom: 0px;
+	border-top: 3px solid white;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 body {
