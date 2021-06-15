@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+.right{
+  float : right;
+}
+
 body {
   font-family: "Roboto", monospace;
   color: rgb(48, 48, 48);
