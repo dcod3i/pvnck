@@ -1,14 +1,12 @@
 
 
-var serverTime = new Date();
-
-function updateTime() {
-    serverTime = new Date(serverTime.getTime() + 1000);
-    $('#dateTime').html(serverTime.toGMTString());
-}
-
+function fullDateTime() {
+            var d = new Date();          
+            var n = d.toLocaleString([], { hour12: true});
+            document.getElementById("dateTime").innerHTML = n;
+        }
 
 
 setInterval(function () {
-    updateTime()
+    fullDateTime()
 }, 1000);
