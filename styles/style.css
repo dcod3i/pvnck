@@ -19,13 +19,13 @@ body {
   color: rgb(48, 48, 48);
   line-height: 1.5;
   font-size: 1.2rem;
-  #background: rgb(30, 201, 197);
+  background: rgb(30, 201, 197);
   #background: linear-gradient(
     90deg,
     rgba(30, 201, 197, 1) 0%,
     rgba(250, 255, 138, 1) 100%
   );
-  background: linear-gradient(90deg,#deefdc,#9fd5f3);
+  background:linear-gradient(90deg,#deefdc,#9fd5f3);
   cursor: url(../images/cursor.svg), auto;
 }
 
@@ -55,7 +55,7 @@ h3 {
 }
 
 p {
-  margin: 0.8rem;
+margin: 0.8rem;
 }
 
 a {
