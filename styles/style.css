@@ -25,7 +25,7 @@ body {
     rgba(30, 201, 197, 1) 0%,
     rgba(250, 255, 138, 1) 100%
   );
-  background:linear-gradient(90deg,#deefdc,#9fd5f3);
+  background: linear-gradient(90deg,#deefdc,#9fd5f3);
   cursor: url(../images/cursor.svg), auto;
 }
 
@@ -55,11 +55,7 @@ h3 {
 }
 
 p {
-margin: 0.8rem;
-font-weight: 400;
-letter-spacing: .011em;
-font-size: 21px;
-line-height: 1.381;
+  margin: 0.8rem;
 }
 
 a {
@@ -334,9 +330,6 @@ footer {
   body {
     font-size: 1rem;
   }
-p{
-text-align: initial;	
-	}
 
   h1 {
     font-size: 2.5rem;
@@ -407,9 +400,6 @@ text-align: initial;
   .circle {
     display: none;
   }
-	p{
-text-align: initial;	
-	}
 
   .projects img {
     max-width: 12rem;
@@ -429,8 +419,4 @@ text-align: initial;
   h2::before {
     font-size: 4.2rem;
   }
-p {
-text-align: initial;	
-	}
 }
-
