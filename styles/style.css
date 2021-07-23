@@ -20,11 +20,12 @@ body {
   line-height: 1.5;
   font-size: 1.2rem;
   background: rgb(30, 201, 197);
-  background: linear-gradient(
+  #background: linear-gradient(
     90deg,
     rgba(30, 201, 197, 1) 0%,
     rgba(250, 255, 138, 1) 100%
   );
+  background:linear-gradient(90deg,#deefdc,#9fd5f3)
   cursor: url(../images/cursor.svg), auto;
 }
 
@@ -54,7 +55,11 @@ h3 {
 }
 
 p {
-  margin: 0.8rem;
+margin: 0.8rem;
+font-weight: 400;
+letter-spacing: .011em;
+font-size: 21px;
+line-height: 1.381;
 }
 
 a {
@@ -329,6 +334,9 @@ footer {
   body {
     font-size: 1rem;
   }
+p{
+text-align: initial;	
+	}
 
   h1 {
     font-size: 2.5rem;
