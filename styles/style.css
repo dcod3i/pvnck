@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+.dl {
+    width: 100%;
+}
+
 .right {
 	position: absolute;
 	bottom: 0px;
