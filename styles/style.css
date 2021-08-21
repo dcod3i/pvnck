@@ -25,7 +25,7 @@ body {
     rgba(30, 201, 197, 1) 0%,
     rgba(250, 255, 138, 1) 100%
   );
-  background:linear-gradient( 90deg, rgb(30, 201, 197) 0%, rgb(250, 255, 138) 100% );
+  background:linear-gradient( 90deg, rgb(30, 201, 197) 0%, rgb(50, 155, 155) 100% );
   cursor: url(../images/cursor.svg), auto;
 }
 
