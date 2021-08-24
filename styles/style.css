@@ -294,14 +294,18 @@ h2::before {
 }
 
 .projects img {
-  width: 21rem;
-  height: auto;
+  width: 15rem;
+  height: 20em;
   transition: all 300ms ease-in-out;
   border-radius: 10px;
 }
 
 .projects img:hover {
   transform: scale(1.05);
+}
+
+.dl img:hover {
+    transform: scale(1.05);
 }
 
 .projects p {
