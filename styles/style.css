@@ -24,6 +24,14 @@ form {
     flex-direction: column;
 }
 
+label {
+    margin-bottom: 1rem;
+}
+
+:root {
+    --blue: #1cb4da;
+}
+
 .right {
 	position: absolute;
 	bottom: 0px;
