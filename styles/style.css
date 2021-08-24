@@ -19,6 +19,12 @@ input, .text-area {
     width: 50%;
 }
 
+.text-area {
+    resize: none;
+    height: 8rem;
+    margin: auto;
+}
+
 form {
     display: flex;
     flex-direction: column;
